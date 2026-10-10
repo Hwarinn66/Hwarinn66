@@ -85,6 +85,16 @@ One of the additional projects in my GitHub collection.
 
 <sub>Stats and language cards are generated dynamically from public GitHub data and may be subject to service availability.</sub>
 
+## `contribution-activity`
+
+<div align="center">
+
+![Animated GitHub contribution snake](https://raw.githubusercontent.com/Hwarinn66/Hwarinn66/output/github-snake.svg)
+
+</div>
+
+<sub>The contribution snake is generated automatically by GitHub Actions. It may take a first workflow run before the animation appears.</sub>
+
 ## `currently`
 
 Continuing to build projects, explore ideas, and strengthen my development skills through practice.
