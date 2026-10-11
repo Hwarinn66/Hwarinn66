@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0891b2&height=200&section=header&text=Efriza%20Taufiqurrohman&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Web%20Development%20%7C%20Computer%20Vision&descAlignY=58&descSize=16" width="100%" alt="Animated dark gradient header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0891b2&height=200&section=header&text=Hwarin&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Web%20Development%20%7C%20Computer%20Vision&descAlignY=58&descSize=16" width="100%" alt="Animated dark gradient header for Hwarin" />
 
 <a href="https://github.com/Hwarinn66">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=600&lines=Building+things+with+code;Exploring+Computer+Vision+%26+ML;Learning+by+building+projects" alt="Animated typing text" />
@@ -18,6 +18,7 @@
 
 ## `whoami`
 
+- 👋 Hi, I'm **Hwarin**
 - 💻 Building web applications and personal projects
 - 🧠 Exploring computer vision and machine learning through hands-on projects
 - 🌱 Learning by experimenting, building, and improving
