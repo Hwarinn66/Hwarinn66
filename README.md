@@ -51,11 +51,19 @@
 </table>
 
 <p align="center">
+  <img src="./assets/vision.svg" alt="Computer vision scanner animation" width="100%" />
+</p>
+
+<p align="center">
   <img src="./assets/divider.svg" alt="" width="100%" />
 </p>
 
 <!-- ===================== TECH STACK ===================== -->
 ## 🛠️ `tech-stack`
+
+<p align="center">
+  <img src="./assets/orbit.svg" alt="Tech stack orbit animation" width="100%" />
+</p>
 
 <p align="center"><b>Web Development</b></p>
 <p align="center">
@@ -194,10 +202,9 @@
 <!-- ===================== CURRENTLY ===================== -->
 ## 🌱 `currently`
 
-- 🔭 Training an object-detection model for **Penghitung** and exploring low-cost hardware to run it portably
-- 🤖 Connecting **machine learning with physical devices** (ESP32, cameras, servos)
-- 🎨 Polishing frontend skills with **Next.js** and **GSAP** animations
-- 📚 Balancing studies, side projects, and writing
+<p align="center">
+  <img src="./assets/now-building.svg" alt="Now building: Penghitung (object detection), ML x IoT, Next.js + GSAP frontend" width="100%" />
+</p>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="" width="100%" />

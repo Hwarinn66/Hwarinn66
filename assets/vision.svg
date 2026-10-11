@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260" role="img" aria-label="Animated computer vision scanner detecting and counting objects">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0f2fe"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <radialGradient id="obj" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#d97706"/></radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".45"/></linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#1e293b" stroke-width="1"/></pattern>
+    <clipPath id="view"><rect x="30" y="22" width="320" height="216" rx="10"/></clipPath>
+    <clipPath id="card"><rect x="2" y="2" width="796" height="256" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .scan { animation: scan 2.6s ease-in-out infinite alternate; }
+    .rec  { animation: blink 1s steps(2) infinite; }
+    .live { animation: pulse 2s ease-in-out infinite; }
+    @keyframes scan  { from { transform: translateY(-40px); } to { transform: translateY(216px); } }
+    @keyframes blink { 0% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @keyframes b0{0%,12.38%{opacity:0;transform:scale(1.25)}15.62%{opacity:1;transform:scale(1)}87.50%{opacity:1;transform:scale(1)}92.50%,100%{opacity:0;transform:scale(1)}}@keyframes b1{0%,22.38%{opacity:0;transform:scale(1.25)}25.62%{opacity:1;transform:scale(1)}87.50%{opacity:1;transform:scale(1)}92.50%,100%{opacity:0;transform:scale(1)}}@keyframes b2{0%,32.38%{opacity:0;transform:scale(1.25)}35.62%{opacity:1;transform:scale(1)}87.50%{opacity:1;transform:scale(1)}92.50%,100%{opacity:0;transform:scale(1)}}@keyframes b3{0%,42.38%{opacity:0;transform:scale(1.25)}45.63%{opacity:1;transform:scale(1)}87.50%{opacity:1;transform:scale(1)}92.50%,100%{opacity:0;transform:scale(1)}}@keyframes b4{0%,52.38%{opacity:0;transform:scale(1.25)}55.62%{opacity:1;transform:scale(1)}87.50%{opacity:1;transform:scale(1)}92.50%,100%{opacity:0;transform:scale(1)}}@keyframes b5{0%,62.38%{opacity:0;transform:scale(1.25)}65.62%{opacity:1;transform:scale(1)}87.50%{opacity:1;transform:scale(1)}92.50%,100%{opacity:0;transform:scale(1)}}@keyframes c0{0%,12.38%{opacity:1}12.50%,92.38%{opacity:0}92.50%,100%{opacity:1}}@keyframes c1{0%,12.38%{opacity:0}12.50%,22.38%{opacity:1}22.50%,100%{opacity:0}}@keyframes c2{0%,22.38%{opacity:0}22.50%,32.38%{opacity:1}32.50%,100%{opacity:0}}@keyframes c3{0%,32.38%{opacity:0}32.50%,42.38%{opacity:1}42.50%,100%{opacity:0}}@keyframes c4{0%,42.38%{opacity:0}42.50%,52.38%{opacity:1}52.50%,100%{opacity:0}}@keyframes c5{0%,52.38%{opacity:0}52.50%,62.38%{opacity:1}62.50%,100%{opacity:0}}@keyframes c6{0%,62.38%{opacity:0}62.50%,92.38%{opacity:1}92.50%,100%{opacity:0}}
+  </style>
+  <g clip-path="url(#card)"><rect width="800" height="260" fill="url(#bg)"/></g>
+  <rect x="2" y="2" width="796" height="256" rx="18" fill="none" stroke="url(#border)" stroke-width="2" stroke-opacity=".8"/>
+
+  <g clip-path="url(#view)">
+    <rect x="30" y="22" width="320" height="216" fill="#020617"/>
+    <rect x="30" y="22" width="320" height="216" fill="url(#grid)"/>
+    <g transform="translate(15,5)"><rect x="47.0" y="47.0" width="46" height="46" rx="14" fill="url(#obj)"/><rect x="145.0" y="38.0" width="40" height="40" rx="12" fill="url(#obj)"/><rect x="225.0" y="67.0" width="50" height="50" rx="15" fill="url(#obj)"/><rect x="73.0" y="143.0" width="44" height="44" rx="13" fill="url(#obj)"/><rect x="171.0" y="148.0" width="48" height="48" rx="14" fill="url(#obj)"/><rect x="271.0" y="161.0" width="38" height="38" rx="11" fill="url(#obj)"/></g>
+    <g transform="translate(15,5)">
+  <g style="animation:b0 8.0s linear infinite;transform-origin:70px 70px">
+    <rect x="41.0" y="41.0" width="58" height="58" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="41.0" y="26.0" width="58" height="15" rx="3" fill="#38bdf8"/>
+    <text x="46.0" y="37.0" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" font-weight="700" fill="#0f172a">obj 0.98</text>
+  </g>
+  <g style="animation:b1 8.0s linear infinite;transform-origin:165px 58px">
+    <rect x="139.0" y="32.0" width="52" height="52" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="139.0" y="17.0" width="58" height="15" rx="3" fill="#38bdf8"/>
+    <text x="144.0" y="28.0" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" font-weight="700" fill="#0f172a">obj 0.95</text>
+  </g>
+  <g style="animation:b2 8.0s linear infinite;transform-origin:250px 92px">
+    <rect x="219.0" y="61.0" width="62" height="62" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="219.0" y="46.0" width="58" height="15" rx="3" fill="#38bdf8"/>
+    <text x="224.0" y="57.0" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" font-weight="700" fill="#0f172a">obj 0.97</text>
+  </g>
+  <g style="animation:b3 8.0s linear infinite;transform-origin:95px 165px">
+    <rect x="67.0" y="137.0" width="56" height="56" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="67.0" y="122.0" width="58" height="15" rx="3" fill="#38bdf8"/>
+    <text x="72.0" y="133.0" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" font-weight="700" fill="#0f172a">obj 0.93</text>
+  </g>
+  <g style="animation:b4 8.0s linear infinite;transform-origin:195px 172px">
+    <rect x="165.0" y="142.0" width="60" height="60" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="165.0" y="127.0" width="58" height="15" rx="3" fill="#38bdf8"/>
+    <text x="170.0" y="138.0" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" font-weight="700" fill="#0f172a">obj 0.96</text>
+  </g>
+  <g style="animation:b5 8.0s linear infinite;transform-origin:290px 180px">
+    <rect x="265.0" y="155.0" width="50" height="50" rx="4" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="265.0" y="140.0" width="58" height="15" rx="3" fill="#38bdf8"/>
+    <text x="270.0" y="151.0" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" font-weight="700" fill="#0f172a">obj 0.94</text>
+  </g>
+    </g>
+    <rect class="scan" x="30" y="22" width="320" height="40" fill="url(#scan)"/>
+  </g>
+  <g fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round">
+    <path d="M30 46V22h24"/><path d="M326 22h24v24"/><path d="M350 214v24h-24"/><path d="M54 238H30v-24"/>
+  </g>
+  <circle class="rec" cx="48" cy="222" r="5" fill="#ef4444"/>
+  <text x="60" y="226" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#e2e8f0" font-weight="700">REC</text>
+
+  <text x="400" y="62" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" letter-spacing="3" fill="#94a3b8">COMPUTER VISION</text>
+  <text x="400" y="92" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" fill="#f8fafc">Detect · Count · Classify</text>
+  <text x="400" y="190" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#818cf8">model: <tspan fill="#e2e8f0">object-detector</tspan></text>
+  <text x="400" y="210" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" fill="#818cf8">status: <tspan class="live" fill="#22d3ee">● live inference</tspan></text>
+  <rect x="616" y="112" width="148" height="112" rx="12" fill="#0b1220" stroke="#1e293b"/>
+  <text x="690" y="136" text-anchor="middle" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" letter-spacing="2" fill="#94a3b8">COUNT</text>
+  <text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c0 8.0s linear infinite">00</text><text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c1 8.0s linear infinite">01</text><text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c2 8.0s linear infinite">02</text><text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c3 8.0s linear infinite">03</text><text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c4 8.0s linear infinite">04</text><text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c5 8.0s linear infinite">05</text><text x="690" y="200" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#txt)" style="animation:c6 8.0s linear infinite">06</text>
+</svg>

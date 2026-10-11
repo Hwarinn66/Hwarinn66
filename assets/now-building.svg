@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" role="img" aria-label="Currently building: Penghitung, ML and IoT, frontend animations">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#0891b2"/></linearGradient>
+    <linearGradient id="g0" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset=".6" stop-color="#38bdf8"/><stop offset="1" stop-color="#ffffff"/></linearGradient><clipPath id="bar0"><rect x="400" y="72" width="360" height="8" rx="4"/></clipPath><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#818cf8" stop-opacity="0"/><stop offset=".6" stop-color="#818cf8"/><stop offset="1" stop-color="#ffffff"/></linearGradient><clipPath id="bar1"><rect x="400" y="122" width="360" height="8" rx="4"/></clipPath><linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".6" stop-color="#22d3ee"/><stop offset="1" stop-color="#ffffff"/></linearGradient><clipPath id="bar2"><rect x="400" y="172" width="360" height="8" rx="4"/></clipPath>
+    <clipPath id="card"><rect x="2" y="2" width="796" height="226" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .flow { animation: flow 2.1s cubic-bezier(.6,0,.4,1) infinite; }
+    .dot  { animation: pulse 1.4s ease-in-out infinite; }
+    .cur  { animation: blink 1s steps(2) infinite; }
+    @keyframes flow  { from { transform: translateX(-130px); } to { transform: translateX(370px); } }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes blink { 0% { opacity: 1; } 100% { opacity: 0; } }
+  </style>
+  <g clip-path="url(#card)"><rect width="800" height="230" fill="url(#bg)"/></g>
+  <rect x="2" y="2" width="796" height="226" rx="18" fill="none" stroke="url(#border)" stroke-width="2" stroke-opacity=".8"/>
+  <circle class="dot" cx="46" cy="36" r="5" fill="#22c55e"/>
+  <text x="60" y="41" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" letter-spacing="3" fill="#94a3b8">NOW BUILDING</text>
+  <rect class="cur" x="196" y="29" width="8" height="15" fill="#38bdf8"/>
+  <text x="40" y="78" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Penghitung</text>
+  <text x="40" y="96" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">training an object-detection model</text>
+  <rect x="400" y="72" width="360" height="8" rx="4" fill="#1e293b"/>
+  <g clip-path="url(#bar0)"><rect class="flow" style="animation-delay:-0.0s" x="400" y="72" width="120" height="8" rx="4" fill="url(#g0)"/></g>
+  <text x="40" y="128" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">ML × IoT</text>
+  <text x="40" y="146" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">connecting models to ESP32, cameras &amp; servos</text>
+  <rect x="400" y="122" width="360" height="8" rx="4" fill="#1e293b"/>
+  <g clip-path="url(#bar1)"><rect class="flow" style="animation-delay:-0.7s" x="400" y="122" width="120" height="8" rx="4" fill="url(#g1)"/></g>
+  <text x="40" y="178" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Frontend</text>
+  <text x="40" y="196" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#94a3b8">polishing Next.js + GSAP animations</text>
+  <rect x="400" y="172" width="360" height="8" rx="4" fill="#1e293b"/>
+  <g clip-path="url(#bar2)"><rect class="flow" style="animation-delay:-1.4s" x="400" y="172" width="120" height="8" rx="4" fill="url(#g2)"/></g>
+</svg>
