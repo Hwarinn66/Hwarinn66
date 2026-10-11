@@ -20,27 +20,39 @@
   <img src="https://img.shields.io/badge/Mode-Always%20Learning-155e75?style=flat-square&labelColor=111827" alt="Always learning" />
 </p>
 
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
 <!-- ===================== ABOUT ===================== -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" /> `whoami`
 
-```ts
-const hwarin = {
-  role: "Developer & Student",
-  location: "Indonesia 🇮🇩",
-  building: [
-    "Web applications",
-    "Computer vision prototypes",
-    "IoT experiments",
-  ],
-  exploring: [
-    "Object detection",
-    "Real-time CV pipelines",
-    "ML on edge devices",
-  ],
-  motto: "Learn by building.",
-  funFact: "I write fantasy fiction ✍️",
-};
-```
+- 👋 Hi, I'm **Hwarin**, a **developer & student** from **Indonesia** 🇮🇩
+- 💻 I build **web applications** and turn ideas into working prototypes
+- 🧠 Exploring **computer vision, machine learning, and IoT** through hands-on projects
+- ✍️ Outside of code, I write **fantasy fiction**
+- ⚡ Motto: *learn by building, improve by iterating*
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <b>🔨 Building</b><br/>
+      • Web applications<br/>
+      • Computer vision prototypes<br/>
+      • IoT experiments
+    </td>
+    <td valign="top" width="50%">
+      <b>🔭 Exploring</b><br/>
+      • Object detection<br/>
+      • Real-time CV pipelines<br/>
+      • ML on edge devices
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
 
 <!-- ===================== TECH STACK ===================== -->
 ## 🛠️ `tech-stack`
@@ -67,6 +79,10 @@ const hwarin = {
   <img src="https://img.shields.io/badge/YOLO-111827?style=flat-square&logo=yolo&logoColor=00FFFF" alt="YOLO" />
   <img src="https://img.shields.io/badge/CodeIgniter-111827?style=flat-square&logo=codeigniter&logoColor=EF4223" alt="CodeIgniter" />
   <img src="https://img.shields.io/badge/ESP32-111827?style=flat-square&logo=espressif&logoColor=E7352C" alt="ESP32" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </p>
 
 <!-- ===================== PROJECTS ===================== -->
@@ -145,6 +161,10 @@ const hwarin = {
   <a href="https://github.com/Hwarinn66?tab=repositories"><img src="https://img.shields.io/badge/See%20all%20repositories-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="All repositories" /></a>
 </p>
 
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
 <!-- ===================== STATS ===================== -->
 ## 📊 `github-activity`
 
@@ -167,6 +187,10 @@ const hwarin = {
   <img src="https://raw.githubusercontent.com/Hwarinn66/Hwarinn66/output/github-snake.svg" alt="Contribution snake" />
 </p>
 
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
 <!-- ===================== CURRENTLY ===================== -->
 ## 🌱 `currently`
 
@@ -174,6 +198,10 @@ const hwarin = {
 - 🤖 Connecting **machine learning with physical devices** (ESP32, cameras, servos)
 - 🎨 Polishing frontend skills with **Next.js** and **GSAP** animations
 - 📚 Balancing studies, side projects, and writing
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
 
 <!-- ===================== CONNECT ===================== -->
 ## 🤝 `connect`
@@ -183,7 +211,7 @@ const hwarin = {
 </p>
 
 <p align="center">
-  <i>"Learn by building, improve by iterating."</i>
+  <img src="./assets/motto.svg" alt="Learn by building, improve by iterating." width="100%" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:312e81,100:0f172a&height=120&section=footer" alt="Footer" width="100%" />
