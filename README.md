@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0891b2&height=200&section=header&text=Hwarin&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Web%20Development%20%7C%20Computer%20Vision&descAlignY=58&descSize=16" width="100%" alt="Animated dark gradient header for Hwarin" />
 
-<img src="https://raw.githubusercontent.com/Hwarinn66/Hwarinn66/main/Kafka%20-%20Honkai_%20Star%20Rail.jpeg" width="320" alt="Kafka from Honkai: Star Rail, selected anime artwork for Hwarin profile" />
+<img src="https://raw.githubusercontent.com/Hwarinn66/Hwarinn66/main/giphy.gif" width="320" alt="Animated anime GIF for Hwarin profile" />
 
 <a href="https://github.com/Hwarinn66">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=600&lines=Building+things+with+code;Exploring+Computer+Vision+%26+ML;Learning+by+building+projects" alt="Animated typing text" />
