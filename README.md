@@ -185,10 +185,6 @@
   <img src="https://streak-stats.demolab.com?user=Hwarinn66&hide_border=true&background=0D1117&ring=38BDF8&fire=818CF8&currStreakLabel=38BDF8&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Hwarinn66&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=818cf8&area=true&area_color=312e81&hide_border=true" alt="Contribution graph" />
-</p>
-
 ## 🐍 `contribution-snake`
 
 <p align="center">
