@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hwarinn66&label=Profile%20views&color=0891b2&style=flat-square" alt="Profile views" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Hwarinn66.Hwarinn66&left_text=Profile%20views&left_color=111827&right_color=0891b2" alt="Profile views" />
   <a href="https://github.com/Hwarinn66?tab=followers"><img src="https://img.shields.io/github/followers/Hwarinn66?label=Followers&style=flat-square&color=312e81&labelColor=111827" alt="Followers" /></a>
   <img src="https://img.shields.io/badge/Based%20in-Indonesia-0f172a?style=flat-square&labelColor=111827" alt="Indonesia" />
   <img src="https://img.shields.io/badge/Mode-Always%20Learning-155e75?style=flat-square&labelColor=111827" alt="Always learning" />
@@ -25,12 +25,20 @@
 
 ```ts
 const hwarin = {
-  role:       "Developer & Student",
-  location:   "Indonesia 🇮🇩",
-  building:   ["Web applications", "Computer vision prototypes", "IoT experiments"],
-  exploring:  ["Object detection", "Real-time CV pipelines", "ML on edge devices"],
-  philosophy: "Learn by building, improve by iterating.",
-  funFact:    "I also write fantasy fiction ✍️",
+  role: "Developer & Student",
+  location: "Indonesia 🇮🇩",
+  building: [
+    "Web applications",
+    "Computer vision prototypes",
+    "IoT experiments",
+  ],
+  exploring: [
+    "Object detection",
+    "Real-time CV pipelines",
+    "ML on edge devices",
+  ],
+  motto: "Learn by building.",
+  funFact: "I write fantasy fiction ✍️",
 };
 ```
 
