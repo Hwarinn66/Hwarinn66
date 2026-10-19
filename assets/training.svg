@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250" role="img" aria-label="Animated model training: loss decreasing and accuracy increasing over 50 epochs">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#0891b2"/></linearGradient><clipPath id="card"><rect x="2" y="2" width="796" height="246" rx="18"/></clipPath>
+    <linearGradient id="pb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0891b2"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <linearGradient id="la" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#818cf8" stop-opacity=".35"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></linearGradient>
+    <clipPath id="reveal"><rect class="rv" x="430" y="48" width="330" height="170"/></clipPath>
+  </defs>
+  <style>
+    .rv   { transform-box: fill-box; transform-origin: left; animation: rv 9.0s linear infinite; }
+    .bar  { transform-box: fill-box; transform-origin: left; animation: rv 9.0s linear infinite; }
+    .cur  { animation: blink 1s steps(2) infinite; }
+    .done { animation: done 9.0s linear infinite; }
+    @keyframes rv    { 0% { transform: scaleX(0); } 66.7%,95.6% { transform: scaleX(1); } 100% { transform: scaleX(1); opacity: 0; } }
+    @keyframes blink { 0% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes done  { 0%,66.7% { opacity: 0; } 68.7%,94.4% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes f0{0%,0.00%{opacity:0}0.00%,6.66%{opacity:1}6.67%,100%{opacity:0}}@keyframes f1{0%,6.66%{opacity:0}6.67%,13.32%{opacity:1}13.33%,100%{opacity:0}}@keyframes f2{0%,13.32%{opacity:0}13.33%,19.99%{opacity:1}20.00%,100%{opacity:0}}@keyframes f3{0%,19.99%{opacity:0}20.00%,26.66%{opacity:1}26.67%,100%{opacity:0}}@keyframes f4{0%,26.66%{opacity:0}26.67%,33.32%{opacity:1}33.33%,100%{opacity:0}}@keyframes f5{0%,33.32%{opacity:0}33.33%,39.99%{opacity:1}40.00%,100%{opacity:0}}@keyframes f6{0%,39.99%{opacity:0}40.00%,46.66%{opacity:1}46.67%,100%{opacity:0}}@keyframes f7{0%,46.66%{opacity:0}46.67%,53.32%{opacity:1}53.33%,100%{opacity:0}}@keyframes f8{0%,53.32%{opacity:0}53.33%,59.99%{opacity:1}60.00%,100%{opacity:0}}@keyframes f9{0%,59.99%{opacity:0}60.00%,94.43%{opacity:1}94.44%,100%{opacity:0}}
+  </style>
+  <g clip-path="url(#card)"><rect width="800" height="250" fill="url(#bg)"/></g>
+  <rect x="2" y="2" width="796" height="246" rx="18" fill="none" stroke="url(#border)" stroke-width="2" stroke-opacity=".8"/>
+  <circle cx="40" cy="36" r="5" fill="#ef4444"/><circle cx="58" cy="36" r="5" fill="#f59e0b"/><circle cx="76" cy="36" r="5" fill="#22c55e"/>
+  <text x="100" y="41" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="12" letter-spacing="3" fill="#94a3b8">TRAINING LOOP</text>
+  <text x="40" y="84" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#22d3ee">$ <tspan fill="#e2e8f0">python train.py --model yolo11n</tspan><tspan class="cur" fill="#38bdf8">▌</tspan></text>
+  <g style="animation:f0 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">05</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">1.180</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.639</tspan></text>
+  </g><g style="animation:f1 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">10</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.685</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.784</tspan></text>
+  </g><g style="animation:f2 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">15</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.469</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.872</tspan></text>
+  </g><g style="animation:f3 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">20</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.326</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.923</tspan></text>
+  </g><g style="animation:f4 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">25</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.215</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.944</tspan></text>
+  </g><g style="animation:f5 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">30</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.194</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.945</tspan></text>
+  </g><g style="animation:f6 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">35</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.159</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.942</tspan></text>
+  </g><g style="animation:f7 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">40</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.132</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.947</tspan></text>
+  </g><g style="animation:f8 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">45</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.140</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.960</tspan></text>
+  </g><g style="animation:f9 9.0s linear infinite">
+    <text x="40" y="118" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#e2e8f0">epoch <tspan fill="#38bdf8" font-weight="700">50</tspan>/50</text>
+    <text x="40" y="142" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#94a3b8">loss <tspan fill="#38bdf8" font-weight="700">0.126</tspan>   acc <tspan fill="#a5b4fc" font-weight="700">0.970</tspan></text>
+  </g>
+  <rect x="40" y="166" width="340" height="8" rx="4" fill="#1e293b"/>
+  <rect class="bar" x="40" y="166" width="340" height="8" rx="4" fill="url(#pb)"/>
+  <text class="done" x="40" y="204" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="13" fill="#22c55e">✓ best model saved → model/best.onnx</text>
+
+  <g stroke="#1e293b" stroke-width="1"><line x1="430" y1="58.0" x2="760" y2="58.0"/><line x1="430" y1="95.5" x2="760" y2="95.5"/><line x1="430" y1="133.0" x2="760" y2="133.0"/><line x1="430" y1="170.5" x2="760" y2="170.5"/><line x1="430" y1="208.0" x2="760" y2="208.0"/></g>
+  <text x="430" y="44" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#38bdf8">━ loss</text>
+  <text x="500" y="44" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="11" fill="#a5b4fc">━ accuracy</text>
+  <text x="760" y="228" text-anchor="end" font-family="'JetBrains Mono', Consolas, Menlo, monospace" font-size="10" fill="#64748b">epochs →</text>
+  <g clip-path="url(#reveal)">
+    <polygon points="430,208 430.0,151.0 436.6,139.4 443.2,133.5 449.8,122.8 456.4,116.4 463.0,112.1 469.6,103.4 476.2,101.0 482.8,96.8 489.4,90.5 496.0,90.4 502.6,85.7 509.2,82.3 515.8,82.9 522.4,77.8 529.0,77.2 535.6,77.2 542.2,72.6 548.8,74.1 555.4,72.6 562.0,69.5 568.6,72.0 575.2,69.0 581.8,68.0 588.4,70.1 595.0,66.4 601.6,67.6 608.2,68.2 614.8,64.8 621.4,67.5 628.0,66.3 634.6,64.3 641.2,67.3 647.8,64.5 654.4,64.6 661.0,66.8 667.6,63.3 674.2,65.3 680.8,65.7 687.4,62.9 694.0,66.0 700.6,64.4 707.2,63.2 713.8,66.2 720.4,63.2 727.0,64.0 733.6,65.8 740.2,62.5 746.8,65.0 753.4,64.9 760.0,62.5 760,208" fill="url(#la)"/>
+    <polyline points="430.0,151.0 436.6,139.4 443.2,133.5 449.8,122.8 456.4,116.4 463.0,112.1 469.6,103.4 476.2,101.0 482.8,96.8 489.4,90.5 496.0,90.4 502.6,85.7 509.2,82.3 515.8,82.9 522.4,77.8 529.0,77.2 535.6,77.2 542.2,72.6 548.8,74.1 555.4,72.6 562.0,69.5 568.6,72.0 575.2,69.0 581.8,68.0 588.4,70.1 595.0,66.4 601.6,67.6 608.2,68.2 614.8,64.8 621.4,67.5 628.0,66.3 634.6,64.3 641.2,67.3 647.8,64.5 654.4,64.6 661.0,66.8 667.6,63.3 674.2,65.3 680.8,65.7 687.4,62.9 694.0,66.0 700.6,64.4 707.2,63.2 713.8,66.2 720.4,63.2 727.0,64.0 733.6,65.8 740.2,62.5 746.8,65.0 753.4,64.9 760.0,62.5" fill="none" stroke="#a5b4fc" stroke-width="2.5" stroke-linejoin="round"/>
+    <polyline points="430.0,64.0 436.6,75.3 443.2,91.6 449.8,104.8 456.4,111.1 463.0,119.5 469.6,131.4 476.2,138.4 482.8,141.5 489.4,148.5 496.0,156.6 502.6,159.5 509.2,161.4 515.8,167.4 522.4,172.3 529.0,172.8 535.6,174.6 542.2,179.6 548.8,181.9 555.4,181.4 562.0,183.6 568.6,187.3 575.2,187.7 581.8,187.1 588.4,189.6 595.0,191.9 601.6,191.2 608.2,191.1 614.8,193.5 621.4,194.6 628.0,193.4 634.6,194.0 641.2,196.0 647.8,196.0 654.4,195.0 661.0,196.1 667.6,197.4 674.2,196.7 680.8,196.2 687.4,197.5 694.0,198.1 700.6,197.2 707.2,197.2 713.8,198.4 720.4,198.4 727.0,197.5 733.6,198.0 740.2,198.9 746.8,198.4 753.4,197.8 760.0,198.6" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+</svg>

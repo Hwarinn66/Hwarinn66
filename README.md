@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0891b2&height=220&section=header&text=Hwarin&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Web%20Developer%20%E2%80%A2%20Computer%20Vision%20Explorer&descAlignY=58&descSize=18&animation=fadeIn" alt="Hwarin header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:0891b2&height=220&section=header&text=Hwarin&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=Machine%20Learning%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20IoT&descAlignY=58&descSize=18&animation=fadeIn" alt="Hwarin header" width="100%" />
 </p>
 
 <p align="center">
@@ -9,15 +9,16 @@
 
 <p align="center">
   <a href="https://github.com/Hwarinn66">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Hwarin+%F0%9F%91%8B;Building+things+with+code;Web+apps+%E2%80%A2+Computer+Vision+%E2%80%A2+IoT;Turning+ideas+into+working+prototypes" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Hwarin+%F0%9F%91%8B;Machine+Learning+%C3%97+Computer+Vision;Training+models+that+see%2C+count+%26+verify;dataset+%E2%86%92+model+%E2%86%92+real+device" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Focus-Machine%20Learning-312e81?style=flat-square&labelColor=111827" alt="Focus: Machine Learning" />
+  <img src="https://img.shields.io/badge/Specialty-Computer%20Vision-0891b2?style=flat-square&labelColor=111827" alt="Specialty: Computer Vision" />
+  <img src="https://img.shields.io/badge/Based%20in-Indonesia-0f172a?style=flat-square&labelColor=111827" alt="Indonesia" />
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Hwarinn66.Hwarinn66&left_text=Profile%20views&left_color=111827&right_color=0891b2" alt="Profile views" />
   <a href="https://github.com/Hwarinn66?tab=followers"><img src="https://img.shields.io/github/followers/Hwarinn66?label=Followers&style=flat-square&color=312e81&labelColor=111827" alt="Followers" /></a>
-  <img src="https://img.shields.io/badge/Based%20in-Indonesia-0f172a?style=flat-square&labelColor=111827" alt="Indonesia" />
-  <img src="https://img.shields.io/badge/Mode-Always%20Learning-155e75?style=flat-square&labelColor=111827" alt="Always learning" />
 </p>
 
 <p align="center">
@@ -27,25 +28,141 @@
 <!-- ===================== ABOUT ===================== -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" /> `whoami`
 
-- 👋 Hi, I'm **Hwarin**, a **developer & student** from **Indonesia** 🇮🇩
-- 💻 I build **web applications** and turn ideas into working prototypes
-- 🧠 Exploring **computer vision, machine learning, and IoT** through hands-on projects
+- 👋 Hi, I'm **Hwarin**, an Informatics student from **Indonesia** 🇮🇩 focused on **machine learning**
+- 👁️ I build **computer vision** systems: face verification, liveness & anti-spoofing, object detection and counting
+- 🧪 I take models the whole way: **dataset → annotation → training → evaluation → deployment**
+- 🔌 I like putting models on **real devices** (cameras, ESP32, servos), not just in notebooks
 - ✍️ Outside of code, I write **fantasy fiction**
-- ⚡ Motto: *learn by building, improve by iterating*
 
 <table>
   <tr>
     <td valign="top" width="50%">
       <b>🔨 Building</b><br/>
-      • Web applications<br/>
-      • Computer vision prototypes<br/>
-      • IoT experiments
+      • Face verification with layered liveness checks<br/>
+      • Dense object counting with YOLO<br/>
+      • ML-powered IoT devices
     </td>
     <td valign="top" width="50%">
       <b>🔭 Exploring</b><br/>
-      • Object detection<br/>
-      • Real-time CV pipelines<br/>
-      • ML on edge devices
+      • Edge deployment with ONNX Runtime<br/>
+      • Model evaluation &amp; robustness<br/>
+      • Voice conversion (RVC)
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./assets/neural.svg" alt="Neural network forward pass animation" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
+<!-- ===================== TECH STACK ===================== -->
+## 🛠️ `ml-stack`
+
+<p align="center">
+  <img src="./assets/orbit.svg" alt="Machine learning tools orbit animation" width="100%" />
+</p>
+
+<p align="center"><b>Machine Learning &amp; Computer Vision</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,opencv&theme=dark" alt="ML stack" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Keras-111827?style=flat-square&logo=keras&logoColor=D00000" alt="Keras" />
+  <img src="https://img.shields.io/badge/Ultralytics_YOLO-111827?style=flat-square&logo=yolo&logoColor=00FFFF" alt="Ultralytics YOLO" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-111827?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
+  <img src="https://img.shields.io/badge/MediaPipe-111827?style=flat-square&logo=google&logoColor=4285F4" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/NumPy-111827?style=flat-square&logo=numpy&logoColor=4DABCF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/CVAT-111827?style=flat-square" alt="CVAT" />
+</p>
+
+<p align="center"><b>Serving models &amp; devices</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,arduino,docker&theme=dark" alt="Serving stack" />
+</p>
+
+<p align="center"><b>Web &amp; apps around the models</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,flutter,php,laravel&theme=dark" alt="Web stack" />
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
+<!-- ===================== PROJECTS ===================== -->
+## 🚀 `ml-projects`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ Absen: Face-Verified Attendance</h3>
+      <p>Server-side face verification with layered liveness checks: capture quality, a randomised head-movement challenge, temporal consistency, passive anti-spoofing, then a 1:1 face match. Web dashboard and Flutter mobile app.</p>
+      <p>
+        <img src="https://img.shields.io/badge/-ONNX_Runtime-111827?style=flat-square&logo=onnx" />
+        <img src="https://img.shields.io/badge/-OpenCV-111827?style=flat-square&logo=opencv" />
+        <img src="https://img.shields.io/badge/-FastAPI-111827?style=flat-square&logo=fastapi" />
+        <img src="https://img.shields.io/badge/-Next.js-111827?style=flat-square&logo=nextdotjs" />
+        <img src="https://img.shields.io/badge/-Flutter-111827?style=flat-square&logo=flutter" />
+      </p>
+      <a href="https://github.com/Hwarinn66/Attendance-Face-Recognition"><b>→ Explore repository</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔢 Dense Object Counter</h3>
+      <p>Detects and counts densely packed objects with YOLO11 or OpenCV detectors, tiled inference for high-resolution images, ROI counting, and a dataset and training pipeline.</p>
+      <p>
+        <img src="https://img.shields.io/badge/-YOLO11-111827?style=flat-square&logo=yolo" />
+        <img src="https://img.shields.io/badge/-OpenCV-111827?style=flat-square&logo=opencv" />
+        <img src="https://img.shields.io/badge/-CVAT-111827?style=flat-square" />
+        <img src="https://img.shields.io/badge/-Flask-111827?style=flat-square&logo=flask" />
+      </p>
+      <a href="https://github.com/Hwarinn66/Dense-Object-Counter"><b>→ Explore repository</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>♻️ Smart Trash</h3>
+      <p>Waste sorter: a MobileNetV2 transfer-learning model classifies organic vs. non-organic waste from a live camera, and an ESP32 turns a servo to the right bin, with Blynk monitoring.</p>
+      <p>
+        <img src="https://img.shields.io/badge/-TensorFlow-111827?style=flat-square&logo=tensorflow" />
+        <img src="https://img.shields.io/badge/-MobileNetV2-111827?style=flat-square" />
+        <img src="https://img.shields.io/badge/-ESP32-111827?style=flat-square&logo=espressif" />
+      </p>
+      <a href="https://github.com/Hwarinn66/Smart-Trash"><b>→ Explore repository</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 InnerSelf Cognitive</h3>
+      <p>32 cognitive-function questions. A TF-IDF + logistic regression model classifies users' written reasons, and the explanation quotes their own answers.</p>
+      <p>
+        <img src="https://img.shields.io/badge/-scikit--learn-111827?style=flat-square&logo=scikitlearn" />
+        <img src="https://img.shields.io/badge/-TF--IDF-111827?style=flat-square" />
+        <img src="https://img.shields.io/badge/-FastAPI-111827?style=flat-square&logo=fastapi" />
+      </p>
+      <a href="https://github.com/Hwarinn66/MBTI-Test-With-ML"><b>→ Explore repository</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>👁️ Face Recognition v1 (research)</h3>
+      <p>Journal research prototype: MobileNetV2 face recognition, blink-based liveness with MediaPipe Face Mesh, and a central server with three Socket.IO clients.</p>
+      <p>
+        <img src="https://img.shields.io/badge/-Keras-111827?style=flat-square&logo=keras" />
+        <img src="https://img.shields.io/badge/-MediaPipe-111827?style=flat-square&logo=google" />
+        <img src="https://img.shields.io/badge/-Socket.IO-111827?style=flat-square&logo=socketdotio" />
+      </p>
+      <a href="https://github.com/Hwarinn66/face-recognition"><b>→ Explore repository</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>✋ Gesture Hand</h3>
+      <p>Real-time hand tracking that opens websites from finger gestures, built on MediaPipe Hands and OpenCV.</p>
+      <p>
+        <img src="https://img.shields.io/badge/-MediaPipe-111827?style=flat-square&logo=google" />
+        <img src="https://img.shields.io/badge/-OpenCV-111827?style=flat-square&logo=opencv" />
+      </p>
+      <a href="https://github.com/Hwarinn66/Gesture-Hand"><b>→ Explore repository</b></a>
     </td>
   </tr>
 </table>
@@ -54,119 +171,33 @@
   <img src="./assets/vision.svg" alt="Computer vision scanner animation" width="100%" />
 </p>
 
-<p align="center">
-  <img src="./assets/divider.svg" alt="" width="100%" />
-</p>
+<details>
+  <summary><b>🧩 Other things I've built (web &amp; systems)</b></summary>
+  <br/>
 
-<!-- ===================== TECH STACK ===================== -->
-## 🛠️ `tech-stack`
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [Portfolio](https://github.com/Hwarinn66/portfolio) | Personal site with animated project diagrams | Next.js · GSAP |
+| [Stock Recording (Laravel)](https://github.com/Hwarinn66/Stock-Recording-Laravel) | QR warehouse stock: scan → pending → approve | Laravel 12 · MariaDB |
+| [Stock Recording (TypeScript)](https://github.com/Hwarinn66/Stock-Recording-TypeScript) | Same system with real-time SSE | Next.js · MySQL |
+| [Payroll System](https://github.com/Hwarinn66/Payroll-System) | Employee payroll management | CodeIgniter 4 |
+| [Laptop Recommendation](https://github.com/Hwarinn66/laptop-recomendation-with-binary-tree) | Recommender on a binary search tree | Flask |
 
-<p align="center">
-  <img src="./assets/orbit.svg" alt="Tech stack orbit animation" width="100%" />
-</p>
-
-<p align="center"><b>Web Development</b></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,php&theme=dark" alt="Web stack" />
-</p>
-
-<p align="center"><b>Computer Vision · ML · IoT</b></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,opencv,flask,arduino&theme=dark" alt="CV and ML stack" />
-</p>
-
-<p align="center"><b>Tools</b></p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Tools" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GSAP-111827?style=flat-square&logo=greensock&logoColor=88CE02" alt="GSAP" />
-  <img src="https://img.shields.io/badge/MediaPipe-111827?style=flat-square&logo=google&logoColor=4285F4" alt="MediaPipe" />
-  <img src="https://img.shields.io/badge/Socket.IO-111827?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
-  <img src="https://img.shields.io/badge/YOLO-111827?style=flat-square&logo=yolo&logoColor=00FFFF" alt="YOLO" />
-  <img src="https://img.shields.io/badge/CodeIgniter-111827?style=flat-square&logo=codeigniter&logoColor=EF4223" alt="CodeIgniter" />
-  <img src="https://img.shields.io/badge/ESP32-111827?style=flat-square&logo=espressif&logoColor=E7352C" alt="ESP32" />
-</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" alt="" width="100%" />
-</p>
-
-<!-- ===================== PROJECTS ===================== -->
-## 🚀 `featured-projects`
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧑‍💼 Face Recognition Attendance</h3>
-      <p>Research prototype for face-recognition attendance with blink-based liveness detection and real-time monitoring.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Python-111827?style=flat-square&logo=python" />
-        <img src="https://img.shields.io/badge/-TensorFlow-111827?style=flat-square&logo=tensorflow" />
-        <img src="https://img.shields.io/badge/-MediaPipe-111827?style=flat-square&logo=google" />
-        <img src="https://img.shields.io/badge/-Flask-111827?style=flat-square&logo=flask" />
-      </p>
-      <a href="https://github.com/Hwarinn66/face-recognition"><b>→ Explore repository</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>♻️ Smart Trash</h3>
-      <p>ML + IoT waste sorter: a MobileNetV2 model classifies organic vs. non-organic waste from a live camera, and an ESP32 drives a servo with Blynk monitoring.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-OpenCV-111827?style=flat-square&logo=opencv" />
-        <img src="https://img.shields.io/badge/-TensorFlow-111827?style=flat-square&logo=tensorflow" />
-        <img src="https://img.shields.io/badge/-ESP32-111827?style=flat-square&logo=espressif" />
-        <img src="https://img.shields.io/badge/-Blynk-111827?style=flat-square" />
-      </p>
-      <a href="https://github.com/Hwarinn66/Smart-Trash"><b>→ Explore repository</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔢 Penghitung — Dense Object Counter</h3>
-      <p>Object-detection model for counting densely packed objects, heading toward a portable standalone device that shows the count on its own screen.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Python-111827?style=flat-square&logo=python" />
-        <img src="https://img.shields.io/badge/-YOLO-111827?style=flat-square" />
-        <img src="https://img.shields.io/badge/-CVAT-111827?style=flat-square" />
-      </p>
-      <a href="https://github.com/Hwarinn66/Penghitung"><b>→ Explore repository</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌐 Personal Portfolio</h3>
-      <p>Responsive portfolio built with a modern frontend stack and smooth scroll-driven animations.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Next.js-111827?style=flat-square&logo=nextdotjs" />
-        <img src="https://img.shields.io/badge/-React-111827?style=flat-square&logo=react" />
-        <img src="https://img.shields.io/badge/-Tailwind-111827?style=flat-square&logo=tailwindcss" />
-        <img src="https://img.shields.io/badge/-GSAP-111827?style=flat-square&logo=greensock" />
-      </p>
-      <a href="https://github.com/Hwarinn66/Portfolio"><b>→ Explore repository</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 MBTI Test with ML</h3>
-      <p>Personality-type test powered by a machine learning model.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Python-111827?style=flat-square&logo=python" />
-      </p>
-      <a href="https://github.com/Hwarinn66/MBTI-Test-With-ML"><b>→ Explore repository</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💼 Payroll System</h3>
-      <p>Employee payroll management system for handling staff data and salary records.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-PHP-111827?style=flat-square&logo=php" />
-        <img src="https://img.shields.io/badge/-CodeIgniter_4-111827?style=flat-square&logo=codeigniter" />
-      </p>
-      <a href="https://github.com/Hwarinn66/Payroll-System"><b>→ Explore repository</b></a>
-    </td>
-  </tr>
-</table>
+</details>
 
 <p align="center">
   <a href="https://github.com/Hwarinn66?tab=repositories"><img src="https://img.shields.io/badge/See%20all%20repositories-0891b2?style=for-the-badge&logo=github&logoColor=white" alt="All repositories" /></a>
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</p>
+
+<!-- ===================== TRAINING ===================== -->
+## 🧪 `training-loop`
+
+<p align="center">
+  <img src="./assets/training.svg" alt="Model training animation" width="100%" />
 </p>
 
 <p align="center">
@@ -199,7 +230,7 @@
 ## 🌱 `currently`
 
 <p align="center">
-  <img src="./assets/now-building.svg" alt="Now building: Penghitung (object detection), ML x IoT, Next.js + GSAP frontend" width="100%" />
+  <img src="./assets/now-building.svg" alt="Now training: face verification, dense object counting, ML on devices" width="100%" />
 </p>
 
 <p align="center">
