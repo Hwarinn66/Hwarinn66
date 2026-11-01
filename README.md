@@ -242,6 +242,7 @@
 
 <p align="center">
   <a href="https://github.com/Hwarinn66"><img src="https://img.shields.io/badge/GitHub-Hwarinn66-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:efrizataufiq@gmail.com"><img src="https://img.shields.io/badge/Email-efrizataufiq%40gmail.com-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 </p>
 
 <p align="center">
